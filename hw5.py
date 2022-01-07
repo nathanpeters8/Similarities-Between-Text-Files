@@ -1,8 +1,6 @@
 """
 Nate Peters
-Hannah Smith
 11/8/19
-ISTA 331 HW5
 
 This module creates a matrix of similarities between contents of text files
 using the cosine similarity formula.
@@ -158,7 +156,7 @@ def get_similarity_matrix(filenames, stop_words, stemmer):
 
 def matrix_pretty_string(sim_matrix):
     '''
-    Creates 'pretty' string representing similarity matrix.
+    Creates printable and presentable string representing similarity matrix.
     ---------------------------------------------
     PARAMETERS:
         sim_matrix(DataFrame) - frame of cosine similarities between files
